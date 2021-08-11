@@ -3,14 +3,15 @@
 
 int main()
 {
-    int l,b,h,add;
+    int l,b,h,div,add;
     printf("enter the length,breadth,height of the trepizoid");
     scanf("%d %d %d",&l,&b,&h);
-    add=addittion(l,b);
-    printf("the addition value is %d",add);
+    add = l+h;
+    div = divisionByTwo(add);
 }
-int addittion(int a,int b){
-    int c;
-    c=a+b;
-    return c;
+divisionByTwo(int a)
+{
+float c;
+c= a/2;
+return c;
 }
